@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers
+addict
+yapf
+timm
+numpy
+opencv-python
+supervision>=0.22.0
+pycocotools
+deep-sort-realtime
+ultralytics
+dash
+plotly
+dash-bootstrap-components
+gradio
+pandas
