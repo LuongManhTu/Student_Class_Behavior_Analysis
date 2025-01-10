@@ -50,9 +50,7 @@ class YoloDetector(nn.Module):
         self.CONFIDENCE_THRESHOLD = 0.3
 
     def forward(self, frame):
-
-        print(">>>>>>>>>>>>>>>> BEFORE DEATH")
-        
+                
         detections = self.model(frame)[0]
 
         results = []
